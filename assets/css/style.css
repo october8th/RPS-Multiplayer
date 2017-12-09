@@ -1,0 +1,77 @@
+/* Show it is fixed to the top */
+body {
+
+  margin-bottom:20px;
+  background-color:black;
+}
+
+a:link { color: #777777; }
+a:visited { color: blue; }
+a:hover { color: #4aaaa5;; }
+a:active { color: #cccccc }
+
+.container-fluid{
+	background-color: black;
+
+}
+
+#gamePic1{
+  max-width:200px;
+}
+#gamePic2{
+  max-width:200px;
+}
+
+.card{
+margin-top:20px;
+margin-bottom:20px;
+
+}
+#chatBox{
+  margin-top:10px;
+  margin-bottom:20px;
+  background-color: lightgrey;
+}
+
+.chatArea{
+  margin-bottom:150px;
+}
+
+.myHeaderText{
+
+	font-family: 'Cardo', serif;
+	font-size:24px;
+	font-weight: bold;
+}
+
+.alreadyGuessed{
+margin-top:20px;
+margin-bottom:20px;
+border-bottom-style: solid;
+border-width:2px;
+border-color: black;
+}
+
+.winLoss{
+margin-top:20px;
+margin-bottom:20px;
+border-bottom-style: solid;
+border-width:2px;
+border-color: black;
+}
+
+.currentWord{
+margin-top:20px;
+margin-bottom:20px;
+border-bottom-style:solid;
+border-width:2px;
+border-color: black;
+}
+
+.myfooter {
+  	background:#666666;
+  	border-top-width: 5px;
+  	border-top-style:solid;
+  	border-color: #4aaaa5;
+  	padding:10px;
+}

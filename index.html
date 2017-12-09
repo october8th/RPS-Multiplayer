@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Moropinzee</title>
+    <!-- add a font -->
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400,700" rel="stylesheet">
+    <!-- reset CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+     <!-- Font Awesome -->
+     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!-- My Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<!-- My game area -->
+	<div class="container-fluid">
+	    <section>
+	    	<!-- fancy exciting title area -->
+			<div class ="row">
+				<div class="col-12" >
+		              <img src="assets/images/excitingMPRNZ2.png" class="rounded mx-auto d-block img-fluid" alt="Game Title Banner">
+		        </div>
+		    </div>
+
+	      	<div class="row">
+		        <!-- Choose your warrior Player 1 -->
+		        <div class="col-sm-12 col-md-6" >
+		          <div class="card">
+		            <div class="card-header text-nowrap text-center myHeaderText" id ="gamePlayText1">
+		            Choose your warrior!
+		            </div>
+		            <div class="card-body">
+		              <img src="assets/images/mprnz-game.png" alt="Monkey-Robot-Pirate-Ninja-Zombie" class="rounded mx-auto d-block img-fluid" id="gamePic1">
+		            </div>
+		          </div>
+		        </div>
+		        <!-- Choose your warrior Player 2 -->
+		        <div class="col-sm-12 col-md-6" >
+		          <div class="card">
+		            <div class="card-header text-nowrap text-center myHeaderText" id ="gamePlayText2">
+		              Who will your opponent choose?
+		            </div>
+		            <div class="card-body">
+		              <img src="assets/images/mprnz-game.png" alt="Monkey-Robot-Pirate-Ninja-Zombie" class="rounded mx-auto d-block img-fluid" id="gamePic2">
+		            </div>
+		          </div>
+		        </div>
+		    </div>
+			<!-- New Row -->
+			<div class="row">
+		        <!-- chat area -->
+		        <div class="col-12">
+		        	<div class="card">
+				        <div class="card-header text-center myHeaderText">
+				             Let the trash talk begin:
+				        </div>
+			            <div class="card-body chatArea">
+			            	<!-- sub head instructions -->
+				            <div class="row">
+				            	<div class="col-12" id="chatBox"> 
+				            		-
+				            	</div>
+				            </div>
+				            <div class="row">
+				            	<div class="col-12">
+					            <form name="message" action="">
+		    						<input name="usermsg" type="text" id="usermsg" class="col-8"/>
+		    						<input name="submitmsg" type="submit"  id="submitmsg" value="Send" />
+								</form>
+								</div>
+			          		</div>
+			        	</div>
+		      		</div>
+		    	</div>
+		    </div>
+		</section>	
+<!-- My footer -->
+		<div class="row">
+	      	<div class="col-sm-12 text-center text-white fixed-bottom myfooter">
+	        	©Copyright 2017 Peter Norman<br>
+	        	Based on - Monkey-Robot-Pirate-Ninja-Zombie (moropinzee)
+				by Mark A. Rayner
+				<a href="http://markarayner.com/archives/1613#sthash.XZP3SAXD.dpbs" target="_blank"> markarayner.com</a>
+	      	</div>
+	    </div>
+	</div>
+</body>
+	<!-- Optional JavaScript -->
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- Firebase Reference -->
+    <script src="https://www.gstatic.com/firebasejs/3.7.1/firebase.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<!-- My game script -->
+	<script src="assets\javascript\javascript.js"></script>
+</html>
