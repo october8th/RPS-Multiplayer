@@ -16,10 +16,23 @@ a:active { color: #cccccc }
 }
 
 #gamePic1{
-  max-width:200px;
+  max-width:225px;
 }
 #gamePic2{
-  max-width:200px;
+  max-width:225px;
+}
+
+.warriorPic{
+  max-width:225px;
+}
+
+.warriorPic2{
+  max-width:225px;
+}
+
+.warriorButton{
+  margin-top:5px;
+  margin-bottom:5px
 }
 
 .card{
@@ -27,9 +40,9 @@ margin-top:20px;
 margin-bottom:20px;
 
 }
-#chatBox{
-  margin-top:10px;
-  margin-bottom:20px;
+.chatbox{
+  margin-top:5px;
+  margin-bottom:5px;
   background-color: lightgrey;
 }
 
